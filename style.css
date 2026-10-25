@@ -1,0 +1,66 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #222;
+    background: white;
+}
+
+header {
+    margin-bottom: 25px;
+}
+
+section {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+button,
+input,
+select {
+    font-family: Arial, sans-serif;
+    padding: 6px;
+    margin: 4px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#hobbyImage {
+    width: 225px;
+    aspect-ratio: 9 / 16;
+    object-fit: cover;
+    display: block;
+    margin-top: 10px;
+}
+
+.result-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#interactiveCard {
+    border: 1px solid #999;
+    padding: 15px;
+    max-width: 350px;
+    cursor: pointer;
+}
+
+#interactiveCard.highlight {
+    background-color: #eee;
+}
+
+#interactiveCard:focus-visible {
+    outline: 2px solid black;
+}
